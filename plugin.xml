@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<plugin id="cordova-plugin-ios-permissions" version="1.0.3" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+    <name>iOS Permissions</name>
+    <author>Patricia Gabriele Neri</author>
+    <keywords>cordova, ios, app, security, permissions</keywords>
+    <license>MIT</license>
+    <engines>
+        <engine name="cordova" version=">=3.0.0"/>
+    </engines>
+    <platform name="ios">
+      <config-file parent="NSPhotoLibraryUsageDescription" platform="ios" target="*-Info.plist">
+          <string>O app precisa ter acesso ao album de fotos.</string>
+      </config-file>
+      <config-file parent="NSCameraUsageDescription" platform="ios" target="*-Info.plist">
+          <string>O app precisa ter acesso a camera.</string>
+      </config-file>
+      <config-file parent="NSContactsUsageDescription" platform="ios" target="*-Info.plist">
+          <string>O app precisa ter acesso a seus contatos.</string>
+      </config-file>
+      <config-file parent="NSLocationUsageDescription" platform="ios" target="*-Info.plist">
+          <string>O app precisa ter acesso a sua localização.</string>
+      </config-file>
+      <config-file parent="NSLocationAlwaysUsageDescription" platform="ios" target="*-Info.plist">
+          <string>O app precisa ter acesso a sua localização.</string>
+      </config-file>
+      <config-file parent="NSLocationWhenInUseUsageDescription" platform="ios" target="*-Info.plist">
+          <string>O app precisa ter acesso a sua localização.</string>
+      </config-file>
+      <config-file parent="LSApplicationQueriesSchemes" platform="ios" target="*-Info.plist">
+          <array>
+              <string>whatsapp</string>
+          </array>
+      </config-file>
+    </platform>
+</plugin>

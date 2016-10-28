@@ -1,0 +1,36 @@
+{
+  "name": "cordova-plugin-ios-permissions",
+  "version": "1.0.0",
+  "author": "Patricia Gabriele Neri <patriciageneri@gmail.com>",
+  "description": "Cordova / PhoneGap Plugin Permission Settings in iOS 10 by adding a declaration to the Info.plist file",
+  "cordova": {
+    "id": "cordova-plugin-ios-permissions",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pgneri/cordova-plugin-ios-permissions"
+  },
+  "keywords": [
+    "cordova",
+    "ios",
+    "app",
+    "security",
+    "permissions",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pgneri/cordova-plugin-ios-permissions/issues"
+  },
+  "homepage": "https://github.com/pgneri/cordova-plugin-ios-permissions#readme"
+}
